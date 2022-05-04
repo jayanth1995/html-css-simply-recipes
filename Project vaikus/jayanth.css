@@ -1,0 +1,29 @@
+.navbar-brand {
+  background-color: aqua;
+  font-size: 45 px;
+}
+
+.row {
+  background-image: linear-gradient(45deg, pink, red);
+}
+.card {
+  background-image: linear-gradient(
+    45deg,
+    rgb(221, 200, 204),
+    rgb(255, 0, 179)
+  );
+}
+.list-group-item {
+  background-image: linear-gradient(45deg, rgb(42, 216, 109), blue);
+}
+
+.rowg-3 {
+  background-image: linear-gradient(45deg, rgb(42, 216, 109), blue);
+}
+.g-2 {
+  background: blue;
+}
+.g-1 {
+  background-image: linear-gradient(45deg, rgb(42, 216, 109), blue);
+  height: 100%;
+}

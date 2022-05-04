@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="abb">
+            <label for="">User Name:</label><br>
+            <input type="text"><br>
+            <label>Email:</label><br>
+            <input id="abc" type="email"><br>
+            <label>Password:</label><br>
+            <input id="def" type="password"><br><br>
+            <button onclick="fun()">Login</button>
+        </div>
+        <script>
+            function fun() {
+                var mail = "jayanthav.93@gmail.com", pass = "Jayanth@123";
+                if (mail == abc.value && pass == def.value) {
+                    alert("You have logged in");
+                }
+                else {
+                    alert("you have entered incorrect mail or password");
+                }
+            }
+
+        </script>
+    </form>
+</body>
+
+</html>
